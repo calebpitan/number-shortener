@@ -1,0 +1,16 @@
+[package]
+name = "number_shortener"
+version = "0.1.0"
+authors = ["Caleb Adepitan <calebpitan@outlook.com>"]
+edition = "2018"
+description = "A Rust crate for making dumb numbers appear smart and if they already look smart, then smarter!"
+repository = "https://github.com/calebpitan/number-shortener"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "number_shortener"
+crate-type = ["lib"]
+
+[dependencies]
