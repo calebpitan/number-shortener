@@ -24,7 +24,5 @@ pub fn shorten_number(num: f32) -> ShortNumber {
     let power = exponent - (exponent % LEAST_EXPONENT);
     let significant = num / BASE.powf(power);
 
-    println!("{:?}", ShortNumber::new(significant, power));
-
     ShortNumber::new(significant, power)
 }
